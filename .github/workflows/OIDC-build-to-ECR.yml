@@ -3,7 +3,7 @@ name: Fineract Comfi Dev UI - Build and Push to ECR using OIDC
 on:
   push:
     branches:
-      - COM-4
+      - comfi
 
 env:
   ecr_repository: fineract/comfi-eu-north-1/dev/ui
